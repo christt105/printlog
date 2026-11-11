@@ -45,7 +45,7 @@ services:
     network_mode: none
     restart: unless-stopped
     environment:
-      FILEBROWSER_BASE_URL: http://192.168.1.15:8900/files/Disco/30-39_Creativo/31_3D_Modeling_Printing/31.04_Impresiones
+      FILEBROWSER_BASE_URL: http://nas.local:8900/files/Disco/3D/31.04_Impresiones
       TZ: Europe/Madrid
     volumes:
       - /path/to/31.04_Impresiones:/prints:ro
